@@ -61,7 +61,7 @@ By looking at the OTHER RACE we see it's lower that the WHITE and BLACK RACE, an
 favstats(WORDSUM~RACE, data=mydata)
 ```
 
-
+By looking at the mean we can see that race OTHER has a mean of 7.444444 while BLACK and WHITE have a similar mean with 8.730769 and 8.977612. Will need to run a test to see if the difference is significant.
 
 ## Inferential Results
 
