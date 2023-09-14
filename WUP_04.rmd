@@ -44,6 +44,15 @@ We have changed all the character variable the factor variables. This type of pr
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+
+```{r}
+basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
+
+basicCN + geom_boxplot()
+```
+
+By looking at the OTHER RACE we see it's lower that the WHITE and BLACK RACE, and the WHITE RACE is higher than both, however we would need to do a statistical test to further test any difference.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
