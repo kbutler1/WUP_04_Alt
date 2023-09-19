@@ -76,7 +76,6 @@ we got a signification result where  run a follow up multiple comparison test du
 
 
 
-
 In the multiple comparison test we can test we can see that in the 95% confidence, we can see  the dotted line that is indicate with a zero confidence level intersects WHITE-BLACK and OTHER-BLACK unlike WHITE-OTHER which is the reason why we result in a low p-value 
 # Discussion and Conclusion
 
