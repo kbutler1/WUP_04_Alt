@@ -68,6 +68,19 @@ By looking at the mean we can see that race OTHER has a mean of 7.444444 while B
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
+```{r}
+model1 <- aov(WORDSUM~RACE, data = mydata)
+summary.aov(model1)
+```
+we got a signification result where  run a follow up multiple comparison test due to low p- value (.0182< .05)
+
+
+
+
+In the multiple comparison test we can test we can see that in the 95% confidence, we can see  the dotted line that is indicate with a zero confidence level intersects WHITE-BLACK and OTHER-BLACK unlike WHITE-OTHER which is the reason why we result in a low p-value 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+In this write up we pretty much had to create a box plot for our factor value (RACE) and numerical value (WORDSUM) right from the beginning we noticed that there was an uncertainty of whether oer not there is any differences and needed to run more test. we then noticed somewhat of differences but not enough to come to a conclusion having us run anova test to see if we had a low p-value so we can then needed to run a multiple comparson test where we could finally see the difference and thus can come to conclusion 
